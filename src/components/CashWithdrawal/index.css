@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.app-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vh;
+}
+.cash-withdrwal-container{
+    background-color:  #150b3e;
+    border-radius: 15px;
+    padding-left: 22px;
+    padding-right:18px ;
+    padding-top: 8px;
+    padding-bottom: 18px;
+}
+@media screen and (min-width: 768px)
+  .cash-withdrwal-container{
+    padding-left: 36px;
+    padding-right: 36px;
+    padding-top: 40px;
+    padding-bottom: 18px;
+    }
+    
+  
